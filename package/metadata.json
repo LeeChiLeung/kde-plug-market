@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "LeeChiLeung"
+            }
+        ],
+        "Category": "Online Services",
+        "Description": "适用于 KDE Plasma 6 的实时股票行情挂件（支持腾讯财经、东方财富、雅虎财经多源，垂直翻滚/横向跑马灯，行内一键折叠为小图标 📈，交易时段智能节流）",
+        "EnabledByDefault": true,
+        "Icon": "office-chart-line",
+        "Id": "org.kde.plasma.globalstockticker",
+        "License": "Apache-2.0",
+        "Name": "Global Stock Ticker (全球股市行情挂件)",
+        "Version": "1.0.0",
+        "Website": "https://github.com/LeeChiLeung/kde-plug-market"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

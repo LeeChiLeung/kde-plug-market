@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="displayMode" type="String">
+      <default>vertical</default>
+    </entry>
+
+    <entry name="dataSource" type="String">
+      <default>tencent</default>
+    </entry>
+
+    <entry name="tickers" type="String">
+      <default>601138,600519,000001,510300,116.00700,105.AAPL</default>
+    </entry>
+
+    <entry name="flipInterval" type="Int">
+      <default>4</default>
+    </entry>
+
+    <entry name="refreshInterval" type="Int">
+      <default>30</default>
+    </entry>
+
+    <entry name="scrollSpeed" type="Int">
+      <default>60</default>
+    </entry>
+
+    <entry name="separator" type="String">
+      <default>    |    </default>
+    </entry>
+
+    <entry name="showName" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="colorMode" type="String">
+      <default>cn</default>
+    </entry>
+
+    <!-- 边框风格：white(白色边框), none(无边框), theme(跟随主题) -->
+    <entry name="borderStyle" type="String">
+      <default>white</default>
+    </entry>
+
+    <!-- 折叠形态与交互控制 -->
+    <entry name="collapsed" type="Bool">
+      <default>false</default>
+    </entry>
+
+    <entry name="clickAction" type="String">
+      <default>toggleCollapse</default>
+    </entry>
+
+    <!-- 交易时段控制 -->
+    <entry name="onlyTradingHours" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="weekendOff" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="morningStart" type="String">
+      <default>09:25</default>
+    </entry>
+
+    <entry name="morningEnd" type="String">
+      <default>11:30</default>
+    </entry>
+
+    <entry name="afternoonStart" type="String">
+      <default>13:00</default>
+    </entry>
+
+    <entry name="afternoonEnd" type="String">
+      <default>15:05</default>
+    </entry>
+  </group>
+</kcfg>

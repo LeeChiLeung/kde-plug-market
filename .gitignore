@@ -1,0 +1,13 @@
+# KDE / Plasma packaging artifacts
+*.plasmoid
+*.zip
+*.tar.gz
+
+# Editor & OS files
+*~
+*.swp
+*.bak
+.directory
+.DS_Store
+.idea/
+.vscode/
